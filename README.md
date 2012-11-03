@@ -4,7 +4,7 @@ A jQuery plugin for creating canned messages functionality in `input` and `texta
 
 ## Usage
 
-Just pass an object with "shortcut":"message" pairs, e.g.
+Just pass an object with `"shortcut" : "message"` pairs, e.g.
 
     var messages = {
 
@@ -14,7 +14,7 @@ Just pass an object with "shortcut":"message" pairs, e.g.
 
 	};
 
-into the canner() function invoked on elements of your choice, e.g.
+into the `canner()` method invoked on elements of your choice, e.g.
 
 	$("textarea").canner(messages);
 
